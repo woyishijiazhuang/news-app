@@ -1,0 +1,70 @@
+@import '~antd/dist/antd.css';
+
+/* NewsSandBox.css */
+#components-layout-demo-custom-trigger .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+#root, .ant-layout {
+    height: 100%;
+}
+
+/* SideMenu */
+.logo {
+    line-height: 64px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+    /* margin: 15px; */
+    text-align: center;
+}
+
+.login-from {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 500px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {width: 5px;height: 5px;position:absolute;}
+::-webkit-scrollbar-thumb {background-color: #1890ff;}
+::-webkit-scrollbar-track {background-color: #ddd;}
+
+button {
+    margin-right: 8px;
+}
+
+.content-editable {
+    /* border: 1px solid red; */
+    line-height: 2em;
+    text-indent: 0.5em;
+}
+.content-editable:focus {
+    border:  1px solid #1890ff;
+    box-shadow: 0 0 1px #1890ff;
+    outline: none;
+}
