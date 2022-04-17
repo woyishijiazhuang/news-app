@@ -12,3 +12,5 @@ json-server --watch db.json --port 8000
 ```
  
 3. db.json 的获取
+
+[db.json就在根目录下](https://github.com/woyishijiazhuang/news-app/blob/main/db.json)
